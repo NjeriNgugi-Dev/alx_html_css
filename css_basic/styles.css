@@ -34,3 +34,57 @@ header, footer {
   text-align: center;
   font-weight: bold;
 }
+/* === Custom Styling === */
+
+/* Header styling */
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Logo styling */
+.logo {
+  font-size: 24px;
+  color: gold;
+}
+
+/* Article area */
+article {
+  background-color: #fafafa;
+  border-right: 1px solid #ddd;
+}
+
+/* Aside area */
+aside {
+  background-color: #f5f5f5;
+  border-left: 1px solid #ccc;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
