@@ -218,3 +218,124 @@ body {
 .hero button:hover {
   background-color: #a850e6;
 }
+/* Reset and global styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+/* Header & Navigation */
+header {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/Object.png") no-repeat center center/cover;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.navbar .logo {
+  width: 100px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  letter-spacing: 5px;
+}
+
+.cta-btn {
+  background-color: #C271FF;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.pros {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.pro {
+  text-align: center;
+}
+
+.pro img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+/* Quote Section */
+.quote {
+  background-color: #C271FF;
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+}
+
+.quote-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.quote-container img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+blockquote {
+  font-size: 1.1rem;
+  margin: 20px 0;
+  font-style: italic;
+}
+
+.person-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.person-title {
+  font-style: italic;
+  margin: 0;
+}
+
+/* Footer */
+footer {
+  background-color: #071629;
+  padding: 20px;
+  text-align: center;
+}
